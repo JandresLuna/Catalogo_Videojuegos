@@ -26,30 +26,11 @@ Este proyecto es una aplicación de Android para visualizar un catálogo de vide
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu_usuario/catalogo-videojuegos.git
+   git clone https://github.com/JandresLuna/catalogo-videojuegos.git
+  
 
-  bash
 
-2. **Abrir en Android Studio:**
-
-Abre Android Studio
-Importa el proyecto clonado.
-3. **Ejecutar la aplicación:**
-
-Conecta un dispositivo Android o usa un emulador.
-Haz clic en el botón "Run" para compilar y ejecutar la aplicación.
-
-4. **Estructura del Proyecto**
-MainActivity.java: La actividad principal que muestra el catálogo de videojuegos.
-DetalleVideojuegoActivity.java: La actividad que muestra los detalles de un videojuego.
-VideoJuegoAdaptador.java: Adaptador para manejar la lista de videojuegos en el RecyclerView.
-Videojuego.java: Clase que representa el objeto Videojuego con sus atributos (portada, nombre, año y descripción).
-
-5. **Librerías Externas**
-Picasso
-Gson
-
-6. **Próximas Mejoras**
+2. **Proximas Mejoras**
 Añadir función de búsqueda para filtrar videojuegos.
 Agregar una opción para ordenar videojuegos por año de lanzamiento.
 Implementar un sistema de favoritos.
